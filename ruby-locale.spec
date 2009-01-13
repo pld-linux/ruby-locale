@@ -1,3 +1,5 @@
+# TODO
+# - remove win32 stuff? lib/locale/driver/win32*
 Summary:	Ruby-Locale is the pure ruby library which provides basic APIs for localization
 Name:		ruby-locale
 Version:	0.9.0

@@ -35,7 +35,6 @@ Documentation files for Locale
 %build
 rdoc --ri --op ri lib
 rdoc --op rdoc lib
-# rm -rf ri/NOT_THIS_MODULE_RELATED_DIRS
 rm -f ri/created.rid
 
 %install

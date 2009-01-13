@@ -3,7 +3,7 @@ Name:		ruby-locale
 Version:	0.9.0
 Release:	0.1
 License:	LGPL
-Source0:	http://rubyforge.org/frs/download.php/47860/ruby-locale-%{version}.tar.gz
+Source0:	http://rubyforge.org/frs/download.php/47860/%{name}-%{version}.tar.gz
 # Source0-md5:	4dafd0c3179fb1cd0da04458ffd90663
 Group:		Development/Languages
 URL:		http://www.yotabanana.com/hiki/ruby-locale.html
@@ -30,7 +30,7 @@ Requires:	ruby >= 1:1.8.7-4
 Documentation files for Locale
 
 %prep
-%setup -q -n ruby-locale-%{version}
+%setup -q
 
 %build
 rdoc --ri --op ri lib

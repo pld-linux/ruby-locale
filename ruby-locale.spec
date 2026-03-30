@@ -2,7 +2,7 @@
 Summary:	Ruby-Locale is the pure ruby library which provides basic APIs for localization
 Name:		ruby-%{pkgname}
 Version:	2.1.5
-Release:	1
+Release:	2
 License:	Ruby or LGPL v3+
 Group:		Development/Languages
 Source0:	https://rubygems.org/downloads/%{pkgname}-%{version}.gem
